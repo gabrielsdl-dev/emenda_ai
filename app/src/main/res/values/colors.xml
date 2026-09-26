@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verde_android">#943DDC</color>
+    <color name="verde_fundo">#FAF9F9</color>
+    <color name="verde_cartao">#2A1A47</color>
+    <color name="verde_destaque">#B388FF</color>
+    <color name="verde_escuro_texto">#FBFBFB</color>
+    <color name="texto_claro">#F1ECF8</color>
+    <color name="texto_suave">#694A76</color>
+    <color name="amarelo_emenda">#FFC94A</color>
+    <color name="vermelho_erro">#FF6B6B</color>
+</resources>

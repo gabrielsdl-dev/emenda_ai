@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="amarelo_emenda">#FFC94A</color>
+    <color name="texto_claro">#EAF3EC</color>
+    <color name="texto_suave">#9FB8A7</color>
+    <color name="verde_android">#3DDC84</color>
+    <color name="verde_cartao">#163A26</color>
+    <color name="verde_escuro_texto">#0A1F14</color>
+    <color name="verde_fundo">#0E2A1B</color>
+    <color name="vermelho_erro">#FF6B6B</color>
+    <dimen name="margem_interna">14dp</dimen>
+    <dimen name="margem_tela">16dp</dimen>
+    <dimen name="raio_cartao">14dp</dimen>
+    <string name="app_name">Emenda Aí!</string>
+    <string name="btn_buscar_cep">Buscar endereço</string>
+    <string name="btn_compartilhar">Compartilhar o rolê</string>
+    <string name="btn_tentar_de_novo">Tentar de novo</string>
+    <string name="btn_vai_chover">Vai chover no feriado?</string>
+    <string name="btn_ver_previsao">Ver previsão</string>
+    <string name="dica_cep">01001000</string>
+    <string name="dica_cidade">São Caetano do Sul</string>
+    <string name="erro_cep_curto">Um CEP tem 8 dígitos. Digite sem hífen.</string>
+    <string name="erro_cep_inexistente">Esse CEP não existe na base dos Correios. Confira os números.</string>
+    <string name="explicacao_previa">Duas chamadas encadeadas: primeiro o nome da cidade vira um código, depois o código vira a previsão. Na semana 7 a gente organiza isso direito.</string>
+    <string name="msg_buscando_cep">Procurando o endereço…</string>
+    <string name="msg_carregando">Buscando os feriados…</string>
+    <string name="msg_cidade_nao_encontrada">Não achei nenhuma cidade com esse nome no CPTEC.</string>
+    <string name="msg_erro_rede">Não consegui falar com a BrasilAPI. Confira a internet do aparelho e tente de novo.</string>
+    <string name="msg_vazio">A API respondeu, mas não veio nenhum feriado para este ano.</string>
+    <string name="rotulo_ano">Escolha o ano</string>
+    <string name="rotulo_cep">CEP do ponto de encontro</string>
+    <string name="rotulo_cidade">Cidade</string>
+    <string name="selo_emenda">EMENDA</string>
+    <string name="subtitulo_principal">Os feriados nacionais do ano, direto da BrasilAPI</string>
+    <string name="titulo_detalhe">Bora marcar o rolê</string>
+    <string name="titulo_previa">Prévia da semana 7</string>
+    <string name="titulo_principal">Emenda Aí!</string>
+    <style name="Theme.EmendaAi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_android</item>
+        <item name="colorOnPrimary">@color/verde_escuro_texto</item>
+        <item name="android:windowBackground">@color/verde_fundo</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/verde_fundo</item>
+        <item name="android:textColorPrimary">@color/texto_claro</item>
+    </style>
+</resources>

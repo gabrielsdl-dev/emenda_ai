@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emenda Aí!</string>
+
+    <!-- Tela principal -->
+    <string name="titulo_principal">Emenda Aí!</string>
+    <string name="subtitulo_principal">Os feriados nacionais do ano, direto da BrasilAPI</string>
+    <string name="rotulo_ano">Escolha o ano</string>
+    <string name="btn_tentar_de_novo">Tentar de novo</string>
+    <string name="msg_carregando">Buscando os feriados…</string>
+    <string name="msg_vazio">A API respondeu, mas não veio nenhum feriado para este ano.</string>
+    <string name="msg_erro_rede">Não consegui falar com a BrasilAPI. Confira a internet do aparelho e tente de novo.</string>
+    <string name="selo_emenda">EMENDA</string>
+
+    <!-- Tela de detalhe -->
+    <string name="titulo_detalhe">Bora marcar o rolê</string>
+    <string name="rotulo_cep">CEP do ponto de encontro</string>
+    <string name="dica_cep">01001000</string>
+    <string name="btn_buscar_cep">Buscar endereço</string>
+    <string name="btn_compartilhar">Compartilhar o rolê</string>
+    <string name="erro_cep_curto">Um CEP tem 8 dígitos. Digite sem hífen.</string>
+    <string name="erro_cep_inexistente">Esse CEP não existe na base dos Correios. Confira os números.</string>
+    <string name="msg_buscando_cep">Procurando o endereço…</string>
+
+  </resources>

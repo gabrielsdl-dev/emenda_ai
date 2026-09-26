@@ -1,0 +1,5 @@
+// Build de nivel raiz. Aqui so declaramos os plugins; a configuracao real
+// do modulo do aplicativo esta em app/build.gradle.
+plugins {
+    id 'com.android.application' version '8.13.2' apply false
+}

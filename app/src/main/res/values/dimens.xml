@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_tela">16dp</dimen>
+    <dimen name="margem_interna">14dp</dimen>
+    <dimen name="raio_cartao">14dp</dimen>
+</resources>

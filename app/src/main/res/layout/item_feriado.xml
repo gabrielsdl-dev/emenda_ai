@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/fundo_cartao"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="@dimen/margem_interna">
+
+    <LinearLayout
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/fundo_data"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textColor="@color/verde_escuro_texto"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SET"
+            android:textColor="@color/verde_escuro_texto"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Independência do Brasil"
+            android:textColor="@color/texto_claro"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="segunda-feira"
+            android:textColor="@color/texto_suave"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtContagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="faltam 42 dias"
+            android:textColor="@color/verde_android"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selo_emenda"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/selo_emenda"
+        android:textColor="@color/verde_escuro_texto"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

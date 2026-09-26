@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/layout_activity_detalhe_feriado.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/layout/activity_detalhe_feriado.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/drawable_selo_emenda.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/drawable/selo_emenda.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/layout_item_clima.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/layout/item_clima.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/drawable_fundo_data.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/drawable/fundo_data.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/layout_activity_previa_semana7.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/layout/activity_previa_semana7.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/layout_item_feriado.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/layout/item_feriado.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/drawable_fundo_cartao.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/drawable/fundo_cartao.xml"
+    },
+    {
+        "merged": "br.senai.sp.emendaai.app-merged_res-32:/drawable_fundo_campo.xml.flat",
+        "source": "br.senai.sp.emendaai.app-main-34:/drawable/fundo_campo.xml"
+    }
+]
