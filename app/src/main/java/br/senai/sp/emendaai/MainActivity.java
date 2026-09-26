@@ -107,10 +107,9 @@ public class MainActivity extends AppCompatActivity {
                 List<Feriado> corpo = response.body();
                 int quantidade = corpo.size();
 
-//                listaFeriado.clear();
-//                listaFeriado.addAll(corpo);
-//                adapter.notifyDataSetChanges();
-
+                listaFeriado.clear();
+                listaFeriado.addAll(corpo);
+                adapter.notifyDataSetChanged();
             }
 
             @Override

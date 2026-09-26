@@ -32,10 +32,10 @@ public class FeriadoAdapter extends RecyclerView.Adapter<FeriadoAdapter.FeriadoV
     public void onBindViewHolder(@NonNull FeriadoViewHolder holder, int position) {
         Feriado item = listaFeriado.get(position);
         holder.txtDia.setText(Datas.dia(item.getData()));
-        holder.txtMes.setText(Datas.mesCurto(item.getNome()));
-        holder.txtNome.setText(item.getTipo());
-        holder.txtSemana.setText(Datas.diaDaSemana(item.getTipo()));
-        holder.txtContagem.setText(Datas.contagem(item.getTipo()));
+        holder.txtMes.setText(Datas.mesCurto(item.getData()));
+        holder.txtNome.setText(item.getNome());
+        holder.txtSemana.setText(Datas.diaDaSemana(item.getData()));
+        holder.txtContagem.setText(Datas.contagem(item.getData()));
 
         boolean ehEmenda = Datas.ehEmenda(item.getData());
         if (ehEmenda){
@@ -48,7 +48,7 @@ public class FeriadoAdapter extends RecyclerView.Adapter<FeriadoAdapter.FeriadoV
 
     @Override
     public int getItemCount() {
-        return 0;
+        return listaFeriado.size();
     }
 
     public class FeriadoViewHolder extends RecyclerView.ViewHolder {
