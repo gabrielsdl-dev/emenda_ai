@@ -1,5 +1,7 @@
 package br.senai.sp.emendaai.adapter;
 
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,9 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import br.senai.sp.emendaai.DetalheFeriadoActivity;
 import br.senai.sp.emendaai.R;
 import br.senai.sp.emendaai.model.Feriado;
 import br.senai.sp.emendaai.util.Datas;
+
 
 public class FeriadoAdapter extends RecyclerView.Adapter<FeriadoAdapter.FeriadoViewHolder> {
     private List<Feriado> listaFeriado;
@@ -43,6 +47,20 @@ public class FeriadoAdapter extends RecyclerView.Adapter<FeriadoAdapter.FeriadoV
         } else {
             holder.txtSelo.setVisibility(View.GONE);
         }
+
+        holder.itemView.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("feriado_nome", item.getNome());
+            bundle.putString("feriado_data", item.getData());
+
+            Intent intent = new Intent(
+                    view.getContext(),
+                    DetalheFeriadoActivity.class
+            );
+
+            intent.putExtras(bundle);
+            view.getContext().startActivity(intent);
+        });
 
     }
 

@@ -1,4 +1,4 @@
-#Fri Sep 25 21:41:10 GMT-03:00 2026
+#Fri Oct 02 19:44:15 BRT 2026
 base.0=C\:\\Users\\25170758\\AndroidStudioProjects\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\25170758\\AndroidStudioProjects\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\25170758\\AndroidStudioProjects\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex

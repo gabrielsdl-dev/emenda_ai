@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
         adapter = new FeriadoAdapter(listaFeriado);
         lista.setLayoutManager(new LinearLayoutManager(this));
         lista.setAdapter(adapter);
+
+
     }
 
     private void carregarFeriados() {
